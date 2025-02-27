@@ -1,0 +1,3 @@
+streanlit
+langchain
+langchain-google-ganai
