@@ -3,10 +3,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
 
-# Load API Key
-with open("C:\DS_25_IN\Google API Key.txt") as f:
-    GOOGLE_API_KEY = f.read().strip()
 
+GOOGLE_API_KEY=st.secrets["GOOGLE_API_KEY"]
 # Initialize AI Model
 chat_model = ChatGoogleGenerativeAI(google_api_key=GOOGLE_API_KEY, model="gemini-2.0-flash-exp", temperature=1)
 
