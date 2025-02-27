@@ -1,3 +1,6 @@
-streanlit
+streamlit
 langchain
-langchain-google-ganai
+langchain-core
+langchain-google-genai
+google-generativeai
+protobuf>=5.26.1
